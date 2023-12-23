@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+:root {
+  --white: #e8eaf6;
+  --indigo: #303f9f;
+}
+
+html {
+  background: var(--white);
+  color: var(--indigo);
+  font-family: "Roboto Mono", sans-serif;
+}
+
+@media (max-width: 576px) {
+  main {
+    margin-top: 70px;
+  }
+
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 576px) {
+  main {
+    min-height: 100vh;
+  }
+
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    min-height: 100vh;
+  }
+
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  main {
+    min-height: 100vh;
+  }
+
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    min-height: 100vh;
+  }
+
+  html {
+    font-size: 20px;
+    overflow-y: hidden;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15px;
+  text-align: center;
+}
+
+main > blockquote {
+  font-style: italic;
+  font-family: monospace;
+}
+
+main > img {
+  align-self: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+main > .intro {
+  font-family: cursive;
+  font-size: 3.75em;
+  font-weight: 600;
+}
+
+main > .tagline {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  font-weight: 100;
+}
+
+.icons-social {
+  font-size: 3em;
+}
+
+.icons-social i {
+  padding: 10px;
+}
+
+.icons-social a {
+  color: var(--indigo);
+  text-decoration: none;
+}
